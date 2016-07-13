@@ -1,0 +1,9 @@
+//= require jquery
+//= require jquery.ui/ui/core
+//= require jquery.ui/ui/effect
+//= require jquery.ui/ui/effects/effect-highlight
+//= require underscore
+//= require backbone
+//= require moment
+//= require_tree ./backbonejs
+//= require board_sample

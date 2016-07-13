@@ -1,0 +1,19 @@
+<div id="posts">
+</div>
+
+<form id="add-post">
+  <div>
+    お名前: <input type="text" id="author" required />
+  </div>
+  <div>
+    本文: <textarea id="body" required></textarea>
+  </div>
+  <input type="submit" value='投稿する' />
+</form>
+
+<script type="text/template" id="post-template">
+  <span>{{- index }}</span>
+  <span class="author">{{- author }}</span>
+  <span class="time">{{- created_at }}</span>
+  <div class="body">{{- body }}</div>
+</script>
